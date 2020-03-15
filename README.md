@@ -1,6 +1,10 @@
 # ComputerEmulator
 Von Neumann computer emulator with Debug mode.
 
+__For full documentation - architecture, system design, experiments & findings please read [ComputerEmulatorDoc Report](https://github.com/SamyuelDanyo/computer-emulator/blob/master/ComputerEmulatorDoc.pdf)__
+
+__[GutHub Pages Format](https://samyueldanyo.github.io/computer-emulator/)__
+
 | INTRODUCTION: |
 -----------------
 The computer emulator implements the functionality of a Von Neumann machine, fetching and executing from memory,
@@ -15,8 +19,10 @@ communication between registers, memory, ALU.
 
 | Execution: |
 --------------
-# Omit < -Ddebug=1 > if you do not wish to see the debug mode execution.
+__Omit < -Ddebug=1 > if you do not wish to see the debug mode execution.__
+
 Linux/Unix: < g++ -o ComputerEmulator ComputerEmulator.cpp -Ddebug=1 >
+
 Windows: < cl /EHsc ComputerEmulator.cpp /Ddebug >
 
 | ISA Design: |
